@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>l82b</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>L82B</h1>
+			<p>개인 참고용임. 어떠한 책임도 지지 않음.</p>
+			<input type="text" onkeyup="update()" id="price" value="1000">
+			<input type="text" id="result" disabled>
+			<ul>
+				<li>
+					<label><input type="radio" value="u2k" onChange="onChange(event)" name="type">USD -> KRW</label>
+				</li>
+				<li>
+					<label><input type="radio" value="j2k" onChange="onChange(event)" name="type">JPY -> KRW</label>
+				</li>
+				<li>
+					<label><input type="radio" value="dcc" onChange="onChange(event)" name="type">KRW -> USD -> KRW</label>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
