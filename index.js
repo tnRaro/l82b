@@ -41,7 +41,7 @@ var rates = {};
 
 function rateUpdate(){
 	$.ajax({
-		url: "http://api.fixer.io/latest",
+		url: "https://api.fixer.io/latest",
 		type: "GET",
 		data: {
 			base: "KRW"
